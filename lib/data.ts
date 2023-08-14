@@ -1,6 +1,6 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
-import PortfolioPicture from "@/public/my portfolio picture .png";
+import PortfolioPicture from "@/public/MyPortfolioPic.png";
 import Blog from "@/public/blog.png";
 import TodoApp from "@/public/TodoApp.png";
 
