@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    --line-color: #e5e7eb;
+    scroll-behavior: smooth !important;
+  }
+  html.dark {
+    --line-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+@layer components {
+  .boderBlack {
+    @apply border border-black/10;
+  }
+}
