@@ -1,10 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import PortfolioPicture from "@/public/my portfolio picture .png";
+import Blog from "@/public/blog.png";
+import TodoApp from "@/public/TodoApp.png";
 
 export const links = [
   {
@@ -24,63 +22,52 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
+    name: "Education",
+    hash: "#education",
   },
 ] as const;
 
-export const experiencesData = [
+export const educationData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Can Tho Vocational College",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 2 years and 6 months of studying. I learned front-end stuff here like HTML, CSS, JS.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "10/2020 - 4/2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "F8, Evondev, Eeasy FrontEnd",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I've been learning great things about ReactJS, NextJS, Typescript and Redux on these channels, combining basic to advanced exercises and digging deeper into the Docs of these frameworks' websites.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Personal Portfolio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this startup project for 2 week. This is my personal portfolio, mainly this project I use NextJS, Typescript and style with TailwindCSS  and Framer Motion to animate check out my ",
+    tags: ["Next.js", "Framer Motion", "TailwindCSS", "Typescript"],
+    imageUrl: PortfolioPicture,
+    linkrepo: "https://github.com/kind012/portfolio-tranthienduc",
   },
   {
-    title: "rmtDev",
+    title: "Blog",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "  This is my basic blog, mainly this project I use ReactJS and style with Tailwind , store data on Firebase , hooks in ReactJS, this is simply show newly created blogs, blogger creation page with tags, and a detail blog page.",
+    tags: ["React", "TailwindCSS", "Firebase"],
+    imageUrl: Blog,
+    linkrepo: "https://github.com/kind012/blog-duc",
   },
   {
-    title: "Word Analytics",
+    title: "Todo App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A public web application for creating to-do lists, the web application includes features such as create todo, change task, and delete task.",
+    tags: ["Next.js", "MongoDB", "TailwindCSS"],
+    imageUrl: TodoApp,
+    linkrepo: "https://github.com/kind012/todoapp-duc",
   },
 ] as const;
 
@@ -94,14 +81,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Redux",
+  "Photoshop",
+  "VScode",
+  "SASS",
 ] as const;
