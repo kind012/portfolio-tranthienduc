@@ -48,26 +48,26 @@ export const projectsData = [
   {
     title: "Personal Portfolio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 week. This is my personal portfolio, mainly this project I use NextJS, Typescript and style with TailwindCSS  and Framer Motion to animate check out my ",
+      "I worked as a full-stack developer on this startup project for 2 week. This is my personal portfolio, mainly this project I use NextJS, Typescript and style with TailwindCSS  and Framer Motion to animate. Check my ",
     tags: ["Next.js", "Framer Motion", "TailwindCSS", "Typescript"],
     imageUrl: PortfolioPicture,
-    linkrepo: "https://github.com/kind012/portfolio-tranthienduc",
+    linkapp: "https://github.com/kind012/portfolio-tranthienduc",
   },
   {
     title: "Blog",
     description:
-      "  This is my basic blog, mainly this project I use ReactJS and style with Tailwind , store data on Firebase , hooks in ReactJS, this is simply show newly created blogs, blogger creation page with tags, and a detail blog page.",
+      "  This is my basic blog, mainly this project I use ReactJS and style with Tailwind , store data on Firebase , hooks in ReactJS, this is simply show newly created blogs, blogger creation page with tags, and a detail blog page. Check my ",
     tags: ["React", "TailwindCSS", "Firebase"],
     imageUrl: Blog,
-    linkrepo: "https://github.com/kind012/blog-duc",
+    linkapp: "https://blog-duc.netlify.app/",
   },
   {
     title: "Todo App",
     description:
-      "A public web application for creating to-do lists, the web application includes features such as create todo, change task, and delete task.",
+      "A public web application for creating to-do lists, the web application includes features such as create todo, change task, and delete task. Check my ",
     tags: ["Next.js", "MongoDB", "TailwindCSS"],
     imageUrl: TodoApp,
-    linkrepo: "https://github.com/kind012/todoapp-duc",
+    linkapp: "https://todoapp-duc-1yukcb7du-kind012.vercel.app/",
   },
 ] as const;
 
@@ -82,8 +82,6 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Redux",
-  "Redux",
-  "Photoshop",
   "VScode",
   "SASS",
 ] as const;

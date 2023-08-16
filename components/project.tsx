@@ -14,7 +14,7 @@ const Project = ({
   description,
   tags,
   imageUrl,
-  linkrepo,
+  linkapp,
 }: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -42,9 +42,8 @@ const Project = ({
           "
           >
             {description}
-            <a href={linkrepo}>
-              Github.
-              <BsGithub />
+            <a href={linkapp} className="underline italic" target="_blank">
+              application
             </a>
           </p>
 
