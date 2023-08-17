@@ -22,12 +22,12 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Education",
-    hash: "#education",
+    name: "Qualification",
+    hash: "#qualification",
   },
 ] as const;
 
-export const educationData = [
+export const qualificationData = [
   {
     title: "Can Tho Vocational College",
     description:

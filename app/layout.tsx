@@ -1,11 +1,11 @@
-import Header from "@/components/header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import ActiveSectionContextProvider from "@/context/active-section-context";
+import Header from "@/components/header";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
+import ActiveSectionContextProvider from "@/context/active-section-context";
 
 const inter = Inter({ subsets: ["latin"] });
 

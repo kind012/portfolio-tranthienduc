@@ -2,10 +2,9 @@
 
 import { useRef } from "react";
 import { projectsData } from "@/lib/data";
-import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
-import { BsGithub } from "react-icons/bs";
+import Image from "next/image";
 
 type ProjectProps = (typeof projectsData)[number];
 

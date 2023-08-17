@@ -1,9 +1,9 @@
-import About from "@/components/about";
-import Education from "@/components/education";
 import Intro from "@/components/intro";
-import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
+import About from "@/components/about";
+import Projects from "@/components/projects";
 import Skills from "@/components/skills";
+import Qualification from "@/components/qualification";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
-      <Education />
+      <Qualification />
     </main>
   );
 }
