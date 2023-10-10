@@ -54,7 +54,7 @@ export const projectsData = [
     linkapp: "https://github.com/kind012/portfolio-tranthienduc",
   },
   {
-    title: "Blog",
+    title: "Mini Blog",
     description:
       "  This is my basic blog, mainly this project I use ReactJS and style with Tailwind , store data on Firebase , hooks in ReactJS, this is simply show newly created blogs, blogger creation page with tags, and a detail blog page. Check my ",
     tags: ["React", "TailwindCSS", "Firebase"],
@@ -67,7 +67,7 @@ export const projectsData = [
       "A public web application for creating to-do lists, the web application includes features such as create todo, change task, and delete task. Check my ",
     tags: ["Next.js", "MongoDB", "TailwindCSS"],
     imageUrl: TodoApp,
-    linkapp: "https://todoapp-duc-1yukcb7du-kind012.vercel.app/",
+    linkapp: "https://todoapp-duc-new.vercel.app/",
   },
 ] as const;
 
@@ -79,8 +79,10 @@ export const skillsData = [
   "React",
   "Next.js",
   "Git",
+  "MUI",
   "TailwindCSS",
   "NODEJS",
   "WORDPRESS",
   "SASS",
+  "SQL",
 ] as const;
