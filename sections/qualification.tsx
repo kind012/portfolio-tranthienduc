@@ -1,25 +1,20 @@
 "use client";
 
-import React from "react";
-import SectionHeading from "./section-heading";
+import React, { useEffect } from "react";
+import SectionHeading from "../components/section-heading";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { qualificationData } from "@/lib/data";
-import { useSectionInView } from "@/hooks/useSectionInView";
 import { useTheme } from "@/context/theme-context";
 
 const Qualification = () => {
-  const { ref } = useSectionInView("Qualification");
   const { theme } = useTheme();
+
   return (
-    <section
-      ref={ref}
-      id="qualification"
-      className="scroll-mt-28 mb-28 sm:mb-40"
-    >
+    <section id="qualification" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My Qualification</SectionHeading>
       <VerticalTimeline lineColor="">
         {qualificationData.map((qualificationData, index) => (

@@ -3,19 +3,12 @@
 import { motion } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { useSectionInView } from "@/hooks/useSectionInView";
 import Link from "next/link";
 import { FaPaperPlane } from "react-icons/fa";
 
 const Intro = () => {
-  const { ref } = useSectionInView("Home", 0.5);
-
   return (
-    <section
-      ref={ref}
-      id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
-    >
+    <section id="home" className="max-w-[50rem] text-center sm:mb-0  lg:mb-40">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
